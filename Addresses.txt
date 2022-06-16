@@ -1,0 +1,9 @@
+City,Street,State,Postalcode,Country
+Asa Norte,Quadra SGAN 607 Modulo D,Distrito Federal,70830304,Brasil
+Asa Sul,SES 809 Lote 38,Distrito Federal,73320060,Brasil
+Goiania,Rua Salvador,Goias,74491840,Brasil
+Jurere,Rua Jurere Tradicional,Santa Catarina,88053750,Brasil
+Blumenau,Praca Maestro Heinz Geyer,Santa Catarina,89010465,Brasil
+Sobradinho,Quadra 2 Conjunto A10,Distrito Federal,73015110,Brasil
+Lago Norte,Condominio Prive I Quadra 1 Conjunto P,Distrito Federal,71539085,Brasil
+Fazendinha (Itapoa),Quadra 1 Conjunto B,Distrito Federal,71596156,Brasil
