@@ -12,6 +12,7 @@ ForEach ($Computer in $servers) {
         $group = [System.DirectoryServices.AccountManagement.GroupPrincipal]::FindByIdentity($context, $idtype, $GroupName)
         $group.Members | Select-Object *, @{ Label = 'Server'; Expression = { $computer } }, @{ Label = 'Domain'; Expression = { $_.Context.Name } }
         $Members = @($Group.psbase.Invoke("Members"))
+        
         ForEach ($Member In $Members) {
             $Class = $Member.GetType().InvokeMember("Class", 'GetProperty', $Null, $Member, $Null)
             $Name = $Member.GetType().InvokeMember("Name", 'GetProperty', $Null, $Member, $Null)
